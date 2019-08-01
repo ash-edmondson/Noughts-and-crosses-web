@@ -1,0 +1,86 @@
+
+
+
+#board {
+
+display: table;
+margin-left: auto;
+margin-right: auto
+
+}
+
+
+
+.row span {
+
+  border: 1px solid black;
+  display: table-cell;
+  width: 65px;
+  height: 65px;
+  margin: -2px;
+
+  text-align: center;
+  vertical-align: middle;
+  font-size: 25px;
+}
+
+#a1, #b1, #c1 {
+
+  border-top: 0;
+
+}
+
+
+
+#a3, #b3, #c3 {
+
+  border-bottom: 0;
+
+}
+
+
+
+#c1, #c2, #c3 {
+
+  border-right: 0;
+
+}
+
+
+
+#a1, #a2, #a3 {
+
+  border-left: 0;
+
+}
+
+#status{
+ font-size: 35;
+ text-align: center;
+ margin: 20px;
+ color:hsl(24, 100%, 50%);
+
+
+}
+
+#heading{
+
+text-align: center;
+margin: 20px;
+color: hsl(120, 100%, 40%);
+}
+
+#clearDiv{
+
+text-align: center
+
+}
+
+
+#scoreBoard{
+
+text-align: center;
+font-size: 25;
+margin: 30px
+
+}
